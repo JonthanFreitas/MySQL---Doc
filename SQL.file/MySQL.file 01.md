@@ -139,12 +139,4 @@ add constraint pkAlunos primary key(id);
 -- Mostra a estrutura final da tabela alunos
 describe alunos;
 ```
---  Adiciona a coluna idCidade na tabela alunos
-ALTER TABLE alunos 
-ADD idCidade INT;
 
---  Cria a regra de Chave Estrangeira ligando alunos.idCidade com cidade.id
-ALTER TABLE alunos
-ADD CONSTRAINT fkAlunoCidade 
-FOREIGN KEY (idCidade) 
-REFERENCES cidade(id);
