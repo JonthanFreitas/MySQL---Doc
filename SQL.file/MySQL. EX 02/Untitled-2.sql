@@ -3,6 +3,10 @@
 -- Inclusão de Registro (DML)
 -- ============================================================
 
+-- Criando um Banco de dados
+
+create database aula;
+
 -- Seleciona o banco de dados aula
 use aula;
 
