@@ -9,12 +9,6 @@
 
 -- ============================================================
 
-
--- Exclui o banco de dados aula caso ele já exista
-
-drop database if exists aula;
-
-
 -- Cria o banco de dados aula
 
 create database aula;
@@ -23,8 +17,6 @@ create database aula;
 -- Seleciona o banco de dados aula para utilizar
 
 use aula;
-
-
 
 -- ============================================================
 
